@@ -248,22 +248,12 @@ body{
 }
 
 .hobby-list {
-  list-style-type: upper-roman;
-  padding-left: 10px;
-  font-family: Arial, sans-serif;
-  font-size: 1.1em;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  gap: 30px;
+  padding: 0;
+  margin: 0;
   color: #d6a622;
-}
-
-#first-half{
-  display:flex;
-  flex-direction: row;
-  gap: 40px;
-}
-#second-half{
-  display:flex;
-  flex-direction: row;
-  gap: 40px;
 }
 
 .hobby-list li {
@@ -271,7 +261,6 @@ body{
   padding: 10px;
   border-left: 4px solid #0a1520;
   background: #7e1111;
-  width: 300px;
   border-radius: 6px;
 }
 
@@ -282,12 +271,19 @@ body{
 .hobby-img {
   display: block;
   margin-top: 8px;
-  max-width: 200px;
+  height: 200px;
+  width: 200px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .link-img {
+  display: block;
+  margin-top: 8px;
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   border: 3px solid #4a90e2;
 }
 
