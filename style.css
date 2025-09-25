@@ -1,0 +1,298 @@
+.profile{
+    width: 250px;
+    background-color: grey;
+    padding: 10px;
+    height: 100vh;
+    position: sticky;
+    width: 400px;
+}
+
+#name {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: saddlebrown;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+    height: 100vh;
+}
+
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to bottom right, darkred , gold );
+}
+
+.main-content{
+    flex: 1;
+    padding: 20px;
+}
+
+.nav{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    padding:15px;
+}
+
+#profile-pic {
+    width: 380px;
+    height: 280px;
+}
+
+#intro-para{
+    color: white;
+    background: radial-gradient(grey, black);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 0; 
+    padding: 15px 20px;
+    border-radius: 12px;
+}
+
+#skills-list {
+  background: radial-gradient(grey, black); 
+  margin: 10px 0;
+  padding: 15px 180px;      
+  border-radius: 200px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: indianred;
+  list-style-type:lower-alpha;
+}
+
+.career-table {
+  width: 80%;            
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  box-shadow: 5px 5px 6px rgba(0,0,0,0.1);
+  margin-top: 80px;
+}
+
+.career-table caption {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.career-table th,
+.career-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.career-table th {
+  background-color: #4a90e2;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.career-table tr:nth-child(even) {
+  background-color: #6458b4;
+}
+
+.career-table tr:nth-child(odd) {
+  background-color: #c10e65;
+}
+
+.career-table tr:hover {
+  background-color: #c4d814;
+}
+
+.edu-table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.edu-table caption {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 10px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.edu-table th,
+.edu-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.edu-table th {
+  background-color: #adc66c;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+.edu-table tr:nth-child(even) {
+  background-color: #d77819;
+}
+
+.edu-table tr:nth-child(odd) {
+  background-color: #2087a7;
+}
+
+.edu-table tr:hover {
+  background-color: #eaf2ff;
+}
+
+.edu-table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.qual-table caption {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 10px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.qual-table th,
+.qual-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.qual-table th {
+  background-color: #49d7b6;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+.qual-table tr:nth-child(even) {
+  background-color: #8d2293;
+}
+
+.qual-table tr:nth-child(odd) {
+  background-color: #d8d341;
+}
+
+.qual-table tr:hover {
+  background-color: #eaf2ff;
+}
+
+.qual-table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.exp-table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.exp-table caption {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 10px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.exp-table th,
+.exp-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.exp-table th {
+  background-color: #8c11dd;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+.exp-table tr:nth-child(even) {
+  background-color: #49e215;
+}
+
+.exp-table tr:nth-child(odd) {
+  background-color: #c62455;
+}
+
+.exp-table tr:hover {
+  background-color: #dd7315;
+}
+
+.hobby-list {
+  list-style-type: upper-roman;
+  padding-left: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 1.1em;
+  color: #d6a622;
+}
+
+#first-half{
+  display:flex;
+  flex-direction: row;
+  gap: 40px;
+}
+#second-half{
+  display:flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.hobby-list li {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-left: 4px solid #0a1520;
+  background: #7e1111;
+  width: 300px;
+  border-radius: 6px;
+}
+
+.hobby-list li:hover {
+  background: #6e12be;
+}
+
+.hobby-img {
+  display: block;
+  margin-top: 8px;
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.link-img {
+  border: 3px solid #4a90e2;
+}
+
+.link-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+  border-color: #1d6ed3;
+}
