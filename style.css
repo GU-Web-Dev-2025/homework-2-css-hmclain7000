@@ -7,7 +7,7 @@
     width: 250px;
     background-color: grey;
     padding: 10px;
-    height: 100vh;
+    height: match-parent;
     position: sticky;
     width: 400px;
 }
@@ -15,6 +15,8 @@
 #name {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: saddlebrown;
+  font-size: 5em;
+  margin: 50px 0;
 }
 
 .container {
@@ -25,7 +27,7 @@
 }
 
 body{
-    height: 100%;
+    height: match-parent;
     padding: 0;
     margin: 0;
     background: linear-gradient(to bottom right, darkred , gold );
@@ -47,13 +49,14 @@ body{
 #profile-pic {
     width: 380px;
     height: 280px;
+    margin: 100px 0;
 }
 
 #intro-para{
     color: white;
     background: radial-gradient(grey, black);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 10px 0; 
+    margin: 100px 0; 
     padding: 15px 20px;
     border-radius: 12px;
 }
@@ -65,8 +68,12 @@ body{
   border-radius: 200px;
   font-family: Arial, sans-serif;
   font-size: 14px;
-  color: indianred;
+  color: rgb(255, 0, 0);
   list-style-type:lower-alpha;
+}
+
+#skills-section{
+  margin: 200px 0
 }
 
 .career-table {
@@ -82,7 +89,7 @@ body{
   font-size: 1.5em;
   margin-bottom: 10px;
   font-weight: bold;
-  color: #333;
+  color: #2c3e50;
 }
 
 .career-table th,
@@ -93,22 +100,23 @@ body{
 }
 
 .career-table th {
-  background-color: #4a90e2;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
+  font-size: 0.9em;
   letter-spacing: 1px;
 }
 
 .career-table tr:nth-child(even) {
-  background-color: #6458b4;
+  background-color: #ff0000;
 }
 
 .career-table tr:nth-child(odd) {
-  background-color: #c10e65;
+  background-color: #ffd500;
 }
 
 .career-table tr:hover {
-  background-color: #c4d814;
+  background-color: #868585;
 }
 
 .edu-table {
@@ -136,7 +144,7 @@ body{
 }
 
 .edu-table th {
-  background-color: #adc66c;
+  background-color: #ffffff;
   color: #000000;
   text-transform: uppercase;
   font-size: 0.9em;
@@ -144,15 +152,15 @@ body{
 }
 
 .edu-table tr:nth-child(even) {
-  background-color: #d77819;
+  background-color: #ff0000;
 }
 
 .edu-table tr:nth-child(odd) {
-  background-color: #2087a7;
+  background-color: #ffd500;
 }
 
 .edu-table tr:hover {
-  background-color: #eaf2ff;
+  background-color: #868585;
 }
 
 .edu-table {
@@ -180,7 +188,7 @@ body{
 }
 
 .qual-table th {
-  background-color: #49d7b6;
+  background-color: #ffffff;
   color: #000000;
   text-transform: uppercase;
   font-size: 0.9em;
@@ -188,15 +196,15 @@ body{
 }
 
 .qual-table tr:nth-child(even) {
-  background-color: #8d2293;
+  background-color: #ff0000;
 }
 
 .qual-table tr:nth-child(odd) {
-  background-color: #d8d341;
+  background-color: #ffd500;
 }
 
 .qual-table tr:hover {
-  background-color: #eaf2ff;
+  background-color: #868585;
 }
 
 .qual-table {
@@ -233,7 +241,7 @@ body{
 }
 
 .exp-table th {
-  background-color: #8c11dd;
+  background-color: #ffffff;
   color: #000000;
   text-transform: uppercase;
   font-size: 0.9em;
@@ -241,20 +249,20 @@ body{
 }
 
 .exp-table tr:nth-child(even) {
-  background-color: #49e215;
+  background-color: #ff0000;
 }
 
 .exp-table tr:nth-child(odd) {
-  background-color: #c62455;
+  background-color: #ffd500;
 }
 
 .exp-table tr:hover {
-  background-color: #dd7315;
+  background-color: #868585;
 }
 
 .hobby-list {
   display: grid;
-  grid-template-columns: repeat(3, 400px);
+  grid-template-columns: repeat(3, 350px);
   gap: 30px;
   padding: 0;
   margin: 0;
@@ -270,7 +278,7 @@ body{
 }
 
 .hobby-list li:hover {
-  background: #6e12be;
+  background: #868585;
 }
 
 .hobby-img {
